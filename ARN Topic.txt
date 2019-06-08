@@ -1,0 +1,1 @@
+arn:aws:sns:us-east-2:075802581118:myIotSNSTopic
