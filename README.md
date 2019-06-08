@@ -10,4 +10,6 @@ MCP3008:
     sudo python setup.py install
 
 DHT11:
+    git clone https://github.com/szazo/DHT11_Python.git
+    
 
