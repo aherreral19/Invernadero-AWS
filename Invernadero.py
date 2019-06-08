@@ -10,6 +10,10 @@ import logging
 import argparse
 import json
 
+
+#UTILIZAR SUS PROPIOS DATOS DEL OBJETO
+
+
 pin=7  
 GPIO.setmode(GPIO.BOARD) 
 GPIO.setup(pin, GPIO.OUT)
