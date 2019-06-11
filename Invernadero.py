@@ -19,23 +19,23 @@ GPIO.setmode(GPIO.BOARD)
 GPIO.setup(pin, GPIO.OUT)
 
 # A random programmatic shadow client ID.
-SHADOW_CLIENT = "myIotThing"
+SHADOW_CLIENT = ""
 # The unique hostname that &IoT; generated for
 # this device.
-HOST_NAME = "a21eej1uzh2ht6-ats.iot.us-east-2.amazonaws.com"
+HOST_NAME = ""
 # The relative path to the correct root CA file for &IoT;,
 # which you have already saved onto this device.
-ROOT_CA = "Amazon_Root_CA_1.pem"
+ROOT_CA = ""
 # The relative path to your private key file that
 # &IoT; generated for this device, which you
 # have already saved onto this device.
-PRIVATE_KEY = "5e45e96e46-private.pem.key"
+PRIVATE_KEY = ""
 # The relative path to your certificate file that
 # &IoT; generated for this device, which you
 # have already saved onto this device.
-CERT_FILE = "5e45e96e46-certificate.pem.crt"
+CERT_FILE = ""
 # A programmatic shadow handler name prefix.
-SHADOW_HANDLER = "myIotThing"
+SHADOW_HANDLER = ""
 # Automatically called whenever the shadow is updated.
 
 AllowedActions = ['both', 'publish', 'subscribe']
